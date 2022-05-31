@@ -12,3 +12,7 @@ I truncate and re-write URLs to the strm files that already exist so that their 
 My plan is to run this from a bash script so that after I've refreshed the strm files on disk, it can scan for any 
 files that were not updated on the same date that the script was run and delete them.  After that I'll do a subsequent search
 for empty directories and delete those. 
+
+You'll need to modify the script to match your folder structure along with the commands that change directories before files are created.
+You'll also need to create/populate 2 text files that house your M3U URLs. There are currently 24 TV VOD URLs active, and 1 for movies.
+In the TV file I just added 50 URLs for future expansion since the script checks to see if they exist before consuming them. 
