@@ -1,5 +1,4 @@
 from m3u_parser import M3uParser
-from itertools import filterfalse
 from pathvalidate import sanitize_filename
 import os
 import stat
