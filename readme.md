@@ -19,3 +19,6 @@ In the TV file I just added 30 URLs for future expansion since the script checks
 
 This does not scrape sports VOD content but it is easy enough to copy the movies section to create a sports one. 
 I only wanted items in my library that have full metadata. 
+
+I would recommend starting with Movies and 1 TV URL, get those added to your library and then add 1 URL per day to be processed. 
+As of writing this, their VOD library contains 12,025 movies and 2154 TV series totaling 115,721 episodes. 
