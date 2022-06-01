@@ -1,6 +1,6 @@
-I created this from scratch after being unable to find anything that would work with Apollo's M3U formatting. 
-I'm fairly new to python so if you have suggestions I'm open to them.  There are probably things that could be done
-a little more sanely, such as handling failures if files don't exist or URLs fail to parse etc.  
+I created this because I couldn't find any tools that would work with Apollo's M3U feeds. 
+PR's welcome as there are probably things that could be donea little more sanely.
+Especially error handling :) 
 
 You will need to install some additional libraries for this script to run properly. 
 
