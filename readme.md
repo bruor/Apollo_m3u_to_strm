@@ -15,4 +15,7 @@ for empty directories and delete those.
 
 You'll need to modify the script to match your folder structure along with the commands that change directories before files are created.
 You'll also need to create/populate 2 text files that house your M3U URLs. There are currently 24 TV VOD URLs active, and 1 for movies.
-In the TV file I just added 50 URLs for future expansion since the script checks to see if they exist before consuming them. 
+In the TV file I just added 30 URLs for future expansion since the script checks to see if they exist before consuming them. 
+
+This does not scrape sports VOD content but it is easy enough to copy the movies section to create a sports one. 
+I only wanted items in my library that have full metadata. 
