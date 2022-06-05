@@ -22,3 +22,53 @@ I only wanted items in my library that have full metadata.
 
 I would recommend starting with Movies and 1 TV URL, get those added to your library and then add 1 URL per day to be processed. 
 As of writing this, their VOD library contains 12,025 movies and 2154 TV series totaling 115,721 episodes. 
+
+
+#setup/run without modifying anything. 
+You're going to need to install a few modules for the script to run.  Assuming you're on Ubuntu, install pip first, then:
+pip install m3u-parser
+pip install pathvalidate
+pip install requests
+pip install numpy
+
+Download getstreams.py to a folder where you're going to create your library of .strm files. 
+create a folder named tv, and a folder within that named vod
+create a folder named movie and a folder within that named vod 
+
+Create a file in the same folder as getstreams.py named movid_vod_urls.txt that contains the following line
+https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/movies
+
+Create a file in hte same folder as getstreams.py named tv_vod_urls.txt that contains the following lines
+https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/1
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/2
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/3
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/4
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/5
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/6
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/7
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/8
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/9
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/10
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/11
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/12
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/13
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/14
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/15
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/16
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/17
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/18
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/19
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/20
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/21
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/22
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/23
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/24
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/25
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/26
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/27
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/28
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/29
+#https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/30
+
+Run the script by calling "python3 getstreams.py" 
+Or, create a shebang line (#!/usr/bin/python3) at the start of your file, and then set is as executable and run it directly. 
