@@ -1,10 +1,14 @@
+#modules that need to be installed
 from m3u_parser import M3uParser
 from pathvalidate import sanitize_filename
-import os
-import stat
-import json 
 import requests
 import numpy
+
+#modules that ship with python
+import stat
+import os
+import json 
+
 
 def url_checker(url):
 	try:
