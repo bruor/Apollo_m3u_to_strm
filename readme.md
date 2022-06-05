@@ -72,3 +72,5 @@ https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/tvshows/1
 
 Run the script by calling "python3 getstreams.py" 
 Or, create a shebang line (#!/usr/bin/python3) at the start of your file, and then set is as executable and run it directly. 
+
+Once it has run successfully you should see a bunch of files with .strm extension on disk.  Proceed to uncommend your TV vod urls in the text file and run the script again to add more shows to your library.  Use caution, when I ran this against all VOD items at once it took over 8 hours for jellyfin to add the content to my library and scrape the metadata. 
