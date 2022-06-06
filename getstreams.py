@@ -82,7 +82,10 @@ for item in stream_list:
 	file.write(url)
 	file.close()
 
-
+#clean up files older than 48h and remove any empty folders
+os.system('find . -type f -daystart -mtime +1 -exec rm {} \;')
+os.system('find . -type d -empty -delete')
+	
 #change back to script folder
 os.chdir('../../')
 
@@ -143,5 +146,9 @@ for item in stream_list:
 	file.write(url)
 	file.close()
 
+#clean up files older than 48h and remove any empty folders
+os.system('find . -type f -daystart -mtime +1 -exec rm {} \;')
+os.system('find . -type d -empty -delete')	
+	
 #change back to script folder
 os.chdir('../../')
