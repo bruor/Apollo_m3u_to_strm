@@ -2,8 +2,6 @@ I created this because I couldn't find any tools that would work with Apollo's M
 PR's welcome as there are probably things that could be done a little more sanely.
 (Especially error handling) 
 
-You will need to install some additional libraries for this script to run properly. 
-
 I'm using Jellyfin and wrote this script so that it can be placed in the root of my media folder.  I then use separate sub-folders 
 for strm file storage along side my media library.  This is why I have a subfolder variable declared and CD into it when generating
 the folder structure and strm files. 
@@ -23,6 +21,7 @@ I only wanted items in my library that have full metadata.
 I would recommend starting with Movies and 1 TV URL, get those added to your library and then add 1 URL per day to be processed. 
 As of writing this, their VOD library contains 12,025 movies and 2154 TV series totaling 115,721 episodes. 
 
+#Caution, on my system this script seems to consume around 400MB of ram while running due to the size of the VOD library. 
 
 #setup/run without modifying anything. 
 You're going to need to install a few modules for the script to run.  Assuming you're on Ubuntu, install pip first, then:
