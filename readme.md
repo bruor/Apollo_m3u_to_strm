@@ -21,7 +21,7 @@ As of writing this, their VOD library contains 12,025 movies and 2154 TV series 
 
 #Caution, on my system this script seems to consume around 400MB of ram while running due to the size of the VOD library. 
 
-#setup/run without modifying anything. 
+#setup/run without modifying anything.
 You're going to need to install a few modules for the script to run.  Assuming you're on Ubuntu, install pip first, then:
 pip install m3u-parser
 pip install pathvalidate
