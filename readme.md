@@ -7,9 +7,7 @@ for strm file storage along side my media library.  This is why I have a subfold
 the folder structure and strm files. 
 
 I truncate and re-write URLs to the strm files that already exist so that their last modified times are updated. 
-My plan is to run this from a bash script so that after I've refreshed the strm files on disk, it can scan for any 
-files that were not updated on the same date that the script was run and delete them.  After that I'll do a subsequent search
-for empty directories and delete those. 
+The script then does a sweep to clean up any strm files that were not updated because they are no longer in the playlist, and any empty folders that are left behind as a result. 
 
 You'll need to modify the script to match your folder structure along with the commands that change directories before files are created.
 You'll also need to create/populate 2 text files that house your M3U URLs. There are currently 24 TV VOD URLs active, and 1 for movies.
