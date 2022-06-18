@@ -24,8 +24,11 @@ As of writing this, their VOD library contains 12,025 movies and 2154 TV series 
 You're going to need to install a few modules for the script to run.  Assuming you're on Ubuntu, install pip first, then:
 
 pip install m3u-parser
+
 pip install pathvalidate
+
 pip install requests
+
 pip install numpy
 
 Download getstreams.py to a folder where you're going to create your library of .strm files. 
