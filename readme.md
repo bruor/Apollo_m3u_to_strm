@@ -1,4 +1,4 @@
-I created this because I couldn't find any tools that would work with Apollo's M3U feeds. 
+I created this because I couldn't find any tools that would work with Apollo's M3U feeds. (apollogroup.tv)
 PR's welcome as there are probably things that could be done a little more sanely.
 (Especially error handling) 
 
