@@ -31,7 +31,8 @@ pip install requests
 
 pip install numpy
 
-Download getstreams.py to a folder where you're going to create your library of .strm files.
+Download getstreams.py to a folder where you're going to create your library of .strm files. 
+
 Create a subfolder named TV and another named Movies
 
 Create a file in the same folder as getstreams.py named movid_vod_urls.txt that contains the following line:
