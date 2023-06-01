@@ -94,12 +94,9 @@ for item in stream_list:
 	file.write(url)
 	file.close()
 
-#clean up files older than 48h and remove any empty folders (linux)
-#os.system('find . -type f -daystart -mtime +1 -exec rm {} \;')
-#os.system('find . -type d -empty -delete')
 
-# clean up files older than 48h and remove any empty folders (windows)
-# Walk through all subdirectories and files within the current directory
+#clean up files older than 48h and remove any empty folders (windows)
+#walk through all subdirectories and files within the current directory
 for root, dirs, files in os.walk(".", topdown=False):
     for file in files:
         # Get the full path of the file
@@ -181,12 +178,8 @@ for item in stream_list:
 	file.write(url)
 	file.close()
 
-#clean up files older than 48h and remove any empty folders (linux)
-#os.system('find . -type f -daystart -mtime +1 -exec rm {} \;')
-#os.system('find . -type d -empty -delete')
-
-# clean up files older than 48h and remove any empty folders (windows)
-# Walk through all subdirectories and files within the current directory
+#clean up files older than 48h and remove any empty folders (windows)
+#walk through all subdirectories and files within the current directory
 for root, dirs, files in os.walk(".", topdown=False):
     for file in files:
         # Get the full path of the file
