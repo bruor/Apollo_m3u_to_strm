@@ -35,7 +35,7 @@ Download getstreams.py to a folder where you're going to create your library of 
 
 Create a subfolder named TV and another named Movies
 
-Create a file in the same folder as getstreams.py named movid_vod_urls.txt that contains the following line:
+Create a file in the same folder as getstreams.py named movie_vod_urls.txt that contains the following line:
 https://tvnow.best/api/list/YOUR_USERNAME/YOUR_PASSWORD/m3u8/movies
 
 Create a file in the same folder as getstreams.py named tv_vod_urls.txt that contains the following lines: 
